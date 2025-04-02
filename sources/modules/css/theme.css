@@ -1,0 +1,22 @@
+html {
+} html[data-theme="light"] {
+    /* font-color */
+    --primary-font-color: #121212;
+    --secondary-font-color: #121212;
+    --tertiary-font-color: #121212;
+    /* background-color */
+    --decoration-background-color: #000000;
+    --primary-background-color: #F0F0F0;
+    --secondary-background-color: #E0E0E0;
+    --tertiary-background-color: #E0E0E0;
+} html[data-theme="dark"] {
+    /* font-color */
+    --primary-font-color: #121212;
+    --secondary-font-color: #121212;
+    --tertiary-font-color: #121212;
+    /* background-color */
+    --decoration-background-color: #FFFFFF;
+    --primary-background-color: #E0E0E0;
+    --secondary-background-color: #E0E0E0;
+    --tertiary-background-color: #E0E0E0;
+}

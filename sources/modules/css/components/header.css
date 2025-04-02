@@ -1,0 +1,47 @@
+body > header {
+    display: flex; align-items: center;
+    justify-content: space-between;
+    padding: 3rem var(--device-margin);
+}
+
+body > header a.logo {
+    color: var(--default-font-color);
+    display: flex; align-items: center;
+    gap: 1rem; font-size: 1.8rem;
+} body > header a.logo > img {
+    width: 2.5rem; height: 2.5rem;
+}
+
+body > header nav.main {
+    display: flex; align-items: center; gap: 0.5rem;
+    padding: 0 0.25rem; height: 2.5rem; border-radius: 1.25rem;
+    background-color: var(--secondary-background-color);
+} body > header nav.main a.link {
+    display: flex; align-items: center; border-radius: 100px;
+    padding: 0 0.75rem; height: 2rem; color: #606060;
+} body > header nav.main a.link:hover {
+    color: #E0E0E0;
+    background-color: var(--decoration-background-color);
+} body > header nav.main a.link:before {
+    content: "#";
+} body > header nav.main a.link:after {
+    content: "";
+}
+
+body > header nav.main div.dropdown {
+    display: none;
+}
+
+body > header div.configuration {
+    display: flex; gap: 1rem;
+} body > header div.configuration > a {
+    color: #909090;
+} body > header div.configuration > a span {
+    color: #202020; font-weight: 600;
+} body > header div.configuration > a:hover {
+    color: #606060;
+} body > header div.configuration > a:hover span {
+    color: #007AFF;
+} body > header div.configuration > a:hover {
+    color: #303030;
+}

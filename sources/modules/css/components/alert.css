@@ -1,0 +1,7 @@
+#alert-bar {
+    display: flex; align-items: center;
+    justify-content: space-between;
+    height: 1.25rem; padding: 0 0.625rem;
+} #alert-bar > div {
+    display: flex;
+}
